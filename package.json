@@ -1,0 +1,28 @@
+{
+  "name": "mercadinho-scraping",
+  "version": "1.0.0",
+  "description": "Algoritmo para categorização de produtos de supermercado",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "scrape": "node scraper.js",
+    "scrape:light": "node scraper_light.js",
+    "scrape:modular": "node scraper_main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "categorização",
+    "produtos",
+    "supermercado",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^21.5.2",
+    "string-similarity": "^4.0.4",
+    "winston": "^3.11.0"
+  }
+}
